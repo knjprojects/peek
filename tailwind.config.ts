@@ -38,7 +38,7 @@ const config = {
     themes: [
       {
         mytheme: {
-          primary: "#ff1432",
+          primary: "#14dcff",
 
           secondary: "#0000ff",
 
@@ -59,8 +59,8 @@ const config = {
       },
       {
         light: {
-          primary: "#570df8",
-          secondary: "#f000b8",
+          primary: "#708090",
+          secondary: "#ADD8E6",
           // Other color definitions
         },
         dark: {

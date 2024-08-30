@@ -2,12 +2,12 @@
 import React, { useEffect, useState } from "react";
 
 const ThemeSwitch = () => {
-  const [theme, setTheme]: any = useState("synthwave");
+  const [theme, setTheme]: any = useState("cupcake");
   return (
     <div className="w-full justify-end">
       <label className="swap swap-rotate">
         {/* this hidden checkbox controls the state */}
-        <input type="checkbox" className="theme-controller" value="cupcake" />
+        <input type="checkbox" className="theme-controller" value="synthwave" />
 
         {/* sun icon */}
         <svg
